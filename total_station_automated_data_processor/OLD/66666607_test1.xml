@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="http://water.usgs.gov/XML/AQ/stylesheets/AQSVMobile_SS1.xsl"?>
+<UsgsHydroML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://water.usgs.gov/XML/AQ" schemaLocation="http://water.usgs.gov/XML/AQ http://water.usgs.gov/XML/AQ/schema/UsgsHydroML.xsd">
+  <Site>
+    <SiteIdentifier organizationCode="USGS">66666607</SiteIdentifier>
+    <SiteData>
+      <SiteVisit>
+        <StartDateTime timeDatumCode="PDT">2024-10-28T09:51:00-07:00</StartDateTime>
+        <EndDateTime>2024-10-28T10:53:00-07:00</EndDateTime>
+        <PartyText>NMK/GTT</PartyText>
+        <WeatherDescription></WeatherDescription>
+        <GagingStationLevels>
+          <GagingStationLevelsCircuit>
+            <CircuitNumber>1</CircuitNumber>
+            <AirTemperature unitsCode="F"></AirTemperature>
+            <StartingObjectName></StartingObjectName>
+            <ClosureError></ClosureError>
+            <ClosureErrorAdjustment></ClosureErrorAdjustment>
+            <EngineerLevel>
+              <Equipment>
+                <ManufacturerName />
+                <ModelNumber />
+                <SerialNumber></SerialNumber>
+              </Equipment>
+              <DigitalCollimationTestDate></DigitalCollimationTestDate>
+              <DigitalCollimation></DigitalCollimation>
+              <OpticalCollimationTestDate></OpticalCollimationTestDate>
+              <OpticalCollimation></OpticalCollimation>
+            </EngineerLevel>
+            <LevelingRod>
+              <Equipment>
+                <MethodCode></MethodCode>
+                <ManufacturerName />
+                <ModelNumber />
+                <SerialNumber></SerialNumber>
+              </Equipment>
+              <LevelingRodLevelUsed></LevelingRodLevelUsed>
+              <LevelingRodTaped></LevelingRodTaped>
+              <CoefficientThermalExpansion></CoefficientThermalExpansion>
+              <CTECalibrationTemperature></CTECalibrationTemperature>
+            </LevelingRod>
+            <CircuitSummary>
+            </CircuitSummary>
+          </GagingStationLevelsCircuit>
+          <FinalSummary>
+			<Object>
+		      <ObjectName></ObjectName>
+		      <ElevationFound>2715.77</ElevationFound>
+			  <CircuitNumber>1</CircuitNumber>
+			</Object>
+            <Object>
+              <ObjectName>P1</ObjectName>
+              <ElevationFound>2726.98</ElevationFound>
+              <CircuitNumber>1</CircuitNumber>
+            </Object>
+            <Object>
+              <ObjectName>P2</ObjectName>
+              <ElevationFound>2726.358</ElevationFound>
+              <CircuitNumber>1</CircuitNumber>
+            </Object>
+          </FinalSummary>
+        </GagingStationLevels>
+      </SiteVisit>
+    </SiteData>
+  </Site>
+</UsgsHydroML>
